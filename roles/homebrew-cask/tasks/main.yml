@@ -1,0 +1,11 @@
+---
+- include_vars: vars/cask.yml
+
+- name: Tap Homebrew Cask
+  homebrew_tap: name=homebrew/cask state=present
+
+- name: Install/Upgrade Homebrew Cask packages
+  homebrew_cask: >
+    name={{ item.name | default(item) }}
+    state={{ item.state | default('present') }}
+  with_items: "{{var_items}}"

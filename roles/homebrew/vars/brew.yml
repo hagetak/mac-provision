@@ -1,0 +1,20 @@
+---
+var_items:
+  - ansible
+  - gdbm
+  - gmp
+  - gnutls
+  - icu4c
+  - libffi
+  - libtasn1
+  - libunistring
+  - libyaml
+  - nettle
+  - node
+  - openssl
+  - p11-kit
+  - python@2
+  - readline
+  - sqlite
+  - tree
+  - zsh

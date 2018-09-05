@@ -2,14 +2,14 @@
 
 ```bash
 $ sudo xcodebuild -license
-$ curl -fsS https://raw.githubusercontent.com/hagetak/mac-provisioning/master/bin/provisioning.sh | sh
+$ curl -fsS https://raw.githubusercontent.com/hagetak/mac-provision/master/bin/provisioning.sh | sh
 ```
 
 ### 一旦実施
 
 
 ```bash
-WORK_DIR=~/Work/source/
+WORK_DIR=~/Work/sources/
 cd $WORK_DIR
 ansible-playbook -i hosts -vv development.yml
 ```

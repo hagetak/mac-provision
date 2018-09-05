@@ -1,7 +1,7 @@
 #!/usr/bin/sh
 
 # set workdir
-WORK_DIR=~/Work/source/
+WORK_DIR=~/Work/sources/
 mkdir -p $WORK_DIR
 
 # install brew

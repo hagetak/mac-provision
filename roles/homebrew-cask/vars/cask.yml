@@ -8,15 +8,18 @@ var_items:
   - caffeine
   - cyberduck
   - discord
+  - docker
   - dropbox
   - evernote
   - flux
   - google-japanese-ime
   - intellij-idea
   - iterm2
+  - java
   - karabiner-elements
   - maczip4win
   - pg-commander
+  - postman
   - safeincloud-password-manager
   - sequel-pro
   - skitch
@@ -24,6 +27,8 @@ var_items:
   - slack
   - sourcetree
   - spotify
+  - station
   - sublime-text
   - vagrant
   - virtualbox
+  - visual-studio-code

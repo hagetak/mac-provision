@@ -1,20 +1,62 @@
 ---
 var_items:
   - ansible
+  - autoconf
+  - automake
+  - aws-elasticbeanstalk
+  - c-ares
+  - colordiff
+  - coreutils
+  - cscope
+  - ctags
   - gdbm
+  - gettext
+  - glib
   - gmp
   - gnutls
   - icu4c
+  - jemalloc
+  - libevent
   - libffi
+  - libgcrypt
+  - libgpg-error
+  - libksba
+  - libmaxminddb
   - libtasn1
+  - libtermkey
+  - libtool
   - libunistring
+  - libuv
+  - libvterm
   - libyaml
+  - lua
+  - lua@5.1
+  - luajit
+  - msgpack
+  - neovim
   - nettle
+  - nkf
   - node
   - openssl
+  - openssl@1.1
   - p11-kit
+  - pcre
+  - perl
+  - pkg-config
+  - python
   - python@2
   - readline
+  - reattach-to-user-namespace
+  - ruby
   - sqlite
+  - tmux
   - tree
+  - unibilium
+  - vim
+  - wireshark
+  - xz
+  - yamllint
   - zsh
+  - zsh-autosuggestions
+  - zsh-completions
+  - zsh-syntax-highlighting

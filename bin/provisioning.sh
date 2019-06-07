@@ -12,10 +12,12 @@ brew install ansible
 brew install git
 
 cd $WORK_DIR
-git clone https://github.com/hagetak/mac-provisioning.git
+if [ ! -e {$WORK_DIR}mac-provision ]; then
+  git clone https://github.com/hagetak/mac-provision.git
+fi
 
 echo 'export HOMEBREW_CASK_OPTS="--appdir=/Applications"' >> ~/.bash_profile
-source ~/.bash_profile
+HOMEBREW_CASK_OPTS="--appdir=/Applications"
 
-cd $WORK_DIR/mac-provisioning
+cd "${WORK_DIR}mac-provision"
 ansible-playbook -i hosts -vv development.yml

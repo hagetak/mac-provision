@@ -18,8 +18,8 @@ ansible-playbook -i hosts -vv development.yml
 
 ```bash
 # brew list to yml 
-echo "---\nvar_items:" > ~/Work/sources/mac-provisioning/roles/homebrew/vars/brew.yml && brew list | xargs -I{} echo "  - {}" >> ~/Work/sources/mac-provisioning/roles/homebrew/vars/brew.yml
+echo "---\nvar_items:" > ~/Work/sources/mac-provision/roles/homebrew/vars/brew.yml && brew list | xargs -I{} echo "  - {}" >> ~/Work/sources/mac-provision/roles/homebrew/vars/brew.yml
 
 # brew cask list to yml
-echo "---\nvar_items:" > ~/Work/sources/mac-provisioning/roles/homebrew-cask/vars/cask.yml && brew cask list | xargs -I{} echo "  - {}" >> ~/Work/sources/mac-provisioning/roles/homebrew-cask/vars/cask.yml
+echo "---\nvar_items:" > ~/Work/sources/mac-provision/roles/homebrew-cask/vars/cask.yml && brew cask list | xargs -I{} echo "  - {}" >> ~/Work/sources/mac-provision/roles/homebrew-cask/vars/cask.yml
 ```

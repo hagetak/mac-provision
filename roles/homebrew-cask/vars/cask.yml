@@ -5,10 +5,10 @@ var_items:
   - bettertouchtool
   - boostnote
   - caffeine
+  - corretto
   - cyberduck
   - discord
   - docker
-  - dropbox
   - evernote
   - flux
   - google-japanese-ime
@@ -17,6 +17,7 @@ var_items:
   - java
   - karabiner-elements
   - maczip4win
+  - mysqlworkbench
   - pg-commander
   - postman
   - safeincloud-password-manager
@@ -28,6 +29,6 @@ var_items:
   - spotify
   - station
   - sublime-text
+  - tunnelblick
   - vagrant
-  - virtualbox
   - visual-studio-code

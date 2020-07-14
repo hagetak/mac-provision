@@ -4,58 +4,112 @@ var_items:
   - autoconf
   - automake
   - aws-elasticbeanstalk
+  - awscli
   - c-ares
   - colordiff
   - coreutils
   - cscope
   - ctags
+  - dnsmasq
+  - docbook
+  - docbook-xsl
+  - freetype
+  - gawk
   - gdbm
   - gettext
+  - ghostscript
+  - git
   - glib
   - gmp
+  - gnu-getopt
   - gnutls
+  - go
+  - heroku
+  - heroku-node
   - icu4c
+  - ilmbase
+  - imagemagick
+  - jansson
   - jemalloc
+  - jpeg
+  - jq
+  - libde265
+  - libev
   - libevent
   - libffi
   - libgcrypt
   - libgpg-error
+  - libheif
+  - libidn2
   - libksba
+  - liblqr
   - libmaxminddb
+  - libomp
+  - libpng
+  - libsmi
+  - libssh
   - libtasn1
   - libtermkey
+  - libtiff
   - libtool
   - libunistring
   - libuv
   - libvterm
   - libyaml
+  - little-cms2
   - lua
   - lua@5.1
   - luajit
+  - mongodb-community@4.0
+  - mpfr
   - msgpack
+  - mysql
+  - ncurses
   - neovim
   - nettle
+  - nghttp2
+  - nginx
   - nkf
   - node
+  - nodebrew
+  - oniguruma
+  - openexr
+  - openjdk
+  - openjpeg
   - openssl
   - openssl@1.1
   - p11-kit
   - pcre
+  - pcre2
+  - peco
   - perl
   - pkg-config
+  - protobuf
   - python
   - python@2
+  - python@3.8
   - readline
   - reattach-to-user-namespace
+  - redis
   - ruby
+  - shared-mime-info
   - sqlite
+  - terraform
   - tmux
+  - toever
   - tree
+  - unbound
   - unibilium
   - vim
+  - watch
+  - webp
   - wireshark
+  - x265
+  - xmlto
   - xz
   - yamllint
+  - yarn
+  - zlib
   - zsh
   - zsh-autosuggestions
   - zsh-completions

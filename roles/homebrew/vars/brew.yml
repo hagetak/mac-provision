@@ -5,6 +5,7 @@ var_items:
   - automake
   - aws-elasticbeanstalk
   - awscli
+  - bdw-gc
   - c-ares
   - colordiff
   - coreutils
@@ -14,6 +15,7 @@ var_items:
   - docbook
   - docbook-xsl
   - freetype
+  - fswatch
   - gawk
   - gdbm
   - gettext
@@ -24,15 +26,17 @@ var_items:
   - gnu-getopt
   - gnutls
   - go
-  - heroku
-  - heroku-node
+  - grep
+  - guile
   - icu4c
   - ilmbase
   - imagemagick
+  - ios-webkit-debug-proxy
   - jansson
   - jemalloc
   - jpeg
   - jq
+  - krb5
   - libde265
   - libev
   - libevent
@@ -41,10 +45,12 @@ var_items:
   - libgpg-error
   - libheif
   - libidn2
+  - libimobiledevice
   - libksba
   - liblqr
   - libmaxminddb
   - libomp
+  - libplist
   - libpng
   - libsmi
   - libssh
@@ -53,6 +59,8 @@ var_items:
   - libtiff
   - libtool
   - libunistring
+  - libusb
+  - libusbmuxd
   - libuv
   - libvterm
   - libyaml
@@ -60,7 +68,7 @@ var_items:
   - lua
   - lua@5.1
   - luajit
-  - mongodb-community@4.0
+  - lz4
   - mpfr
   - msgpack
   - mysql
@@ -76,7 +84,6 @@ var_items:
   - openexr
   - openjdk
   - openjpeg
-  - openssl
   - openssl@1.1
   - p11-kit
   - pcre
@@ -84,28 +91,32 @@ var_items:
   - peco
   - perl
   - pkg-config
+  - popt
+  - postgresql
   - protobuf
-  - python
-  - python@2
-  - python@3.8
+  - python@3.9
   - readline
   - reattach-to-user-namespace
   - redis
+  - rsync
   - ruby
   - shared-mime-info
   - sqlite
   - terraform
   - tmux
-  - toever
   - tree
   - unbound
   - unibilium
+  - unison
+  - unox
+  - utf8proc
   - vim
   - watch
   - webp
   - wireshark
   - x265
   - xmlto
+  - xxhash
   - xz
   - yamllint
   - yarn
@@ -114,3 +125,4 @@ var_items:
   - zsh-autosuggestions
   - zsh-completions
   - zsh-syntax-highlighting
+  - zstd

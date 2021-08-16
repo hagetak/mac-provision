@@ -5,6 +5,7 @@ var_items:
   - bettertouchtool
   - boostnote
   - caffeine
+  - canva
   - corretto
   - cyberduck
   - discord
@@ -12,14 +13,15 @@ var_items:
   - evernote
   - flux
   - google-japanese-ime
+  - inkdrop
   - intellij-idea
   - iterm2
-  - java
   - karabiner-elements
   - maczip4win
   - mysqlworkbench
   - pg-commander
   - postman
+  - proxyman
   - safeincloud-password-manager
   - sequel-pro
   - skitch
@@ -27,8 +29,8 @@ var_items:
   - slack
   - sourcetree
   - spotify
-  - station
   - sublime-text
+  - tableplus
   - tunnelblick
   - vagrant
   - visual-studio-code

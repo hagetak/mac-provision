@@ -1,11 +1,15 @@
 ---
 var_items:
   - ansible
+  - aom
   - autoconf
   - automake
   - aws-elasticbeanstalk
   - awscli
+  - bat
   - bdw-gc
+  - berkeley-db
+  - brotli
   - c-ares
   - colordiff
   - coreutils
@@ -14,29 +18,29 @@ var_items:
   - dnsmasq
   - docbook
   - docbook-xsl
+  - docker
   - freetype
-  - fswatch
+  - fzf
   - gawk
   - gdbm
   - gettext
   - ghostscript
+  - ghq
   - git
   - glib
   - gmp
   - gnu-getopt
   - gnutls
   - go
-  - grep
   - guile
   - icu4c
   - ilmbase
   - imagemagick
-  - ios-webkit-debug-proxy
+  - imageoptim-cli
   - jansson
   - jemalloc
   - jpeg
   - jq
-  - krb5
   - libde265
   - libev
   - libevent
@@ -45,12 +49,10 @@ var_items:
   - libgpg-error
   - libheif
   - libidn2
-  - libimobiledevice
   - libksba
   - liblqr
   - libmaxminddb
   - libomp
-  - libplist
   - libpng
   - libsmi
   - libssh
@@ -59,8 +61,6 @@ var_items:
   - libtiff
   - libtool
   - libunistring
-  - libusb
-  - libusbmuxd
   - libuv
   - libvterm
   - libyaml
@@ -68,7 +68,10 @@ var_items:
   - lua
   - lua@5.1
   - luajit
-  - lz4
+  - luajit-openresty
+  - luv
+  - m4
+  - mpdecimal
   - mpfr
   - msgpack
   - mysql
@@ -91,14 +94,13 @@ var_items:
   - peco
   - perl
   - pkg-config
-  - popt
-  - postgresql
   - protobuf
   - python@3.9
   - readline
   - reattach-to-user-namespace
   - redis
-  - rsync
+  - rename
+  - ripgrep
   - ruby
   - shared-mime-info
   - sqlite
@@ -116,7 +118,6 @@ var_items:
   - wireshark
   - x265
   - xmlto
-  - xxhash
   - xz
   - yamllint
   - yarn
@@ -125,4 +126,3 @@ var_items:
   - zsh-autosuggestions
   - zsh-completions
   - zsh-syntax-highlighting
-  - zstd
